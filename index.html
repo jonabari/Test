@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <input type="file" accept="image/*" capture="camera" />
+    <form action=“server.cgi” method=“post” enctype=“multipart/form-data”>
+        <input type=“file” name=“image” accept=“image/*” capture=“user”>
+    </form>
 </body>
 
 </html>
